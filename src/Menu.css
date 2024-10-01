@@ -1,0 +1,95 @@
+.menu-container {
+    background-color: #1c1c1c; /* Koyu gri arka plan */
+    color: #f1f1f1; /* Açık gri yazı rengi */
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #d4af37; /* Altın rengi */
+    font-family: 'Garamond', serif; /* Elit bir serif font */
+}
+
+.menu-pages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.menu-category {
+    flex: 1 1 40%;
+    margin: 15px;
+    background: rgba(255, 255, 255, 0.05); /* Hafif beyaz arka plan */
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu-category:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.1); /* Hover efekti */
+}
+
+.category-title {
+    font-size: 2em;
+    border-bottom: 2px solid #d4af37; /* Altın rengi alt çizgi */
+    margin-bottom: 20px;
+    font-family: 'Garamond', serif;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 5px 0; /* Daha fazla alan */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Hafif alt çizgi */
+}
+
+.item-name {
+    font-family: 'Arial', sans-serif; /* Sans-serif font */
+    font-size: 1.3em; /* Yazı boyutu */
+}
+
+.item-price {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold; /* Kalın yazı */
+    color: #d4af37; /* Altın rengi fiyat */
+}
+
+@media (max-width: 768px) {
+    .menu-container{
+        padding: 25px;
+    }
+    .menu-category {
+        flex: 1 1 100%; /* Mobilde tam genişlik */
+        width: 100%; /* Tam genişlik */
+        margin: 0; /* Kenar boşluğunu kaldır */
+        
+    }
+
+    .menu-title {
+        font-size: 2.5em; /* Daha küçük başlık */
+    }
+
+    .category-title {
+        font-size: 1.7em; /* Kategori başlığı */
+    }
+
+    .item-name, .item-price {
+        font-size: 1.1em; /* Yazı boyutu */
+    }
+}
