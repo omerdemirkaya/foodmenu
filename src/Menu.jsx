@@ -2,63 +2,63 @@ import "./Menu.css";
 
 const menuData = [
   {
-    category: "ÖZEL LEZZETLER",
-    items: [
-      { name: "Ankara Tava", price: "230₺" },
-      { name: "Çiğ Köfte (kg)", price: "200₺" },
-      { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
-      { name: "Çiğ Köfte (Dürüm)", price: "60₺" },
-      { name: "Mantı (kg)", price: "300₺" },
-      { name: "Mantı (Porsiyon)", price: "50₺" },
-      { name: "İçli Köfte (adet)", price: "50₺" },
-      { name: "Yaprak Sarma(kg)", price: "200₺" },
-      { name: "Yaprak Sarma (Porsiyon)", price: "50₺" },
-      { name: "Baklava (kg)", price: "350₺" },
-      { name: "Baklava (Porsiyon)", price: "70₺" },
-      { name: "Waffle", price: "70₺" },
-      { name: "Höşmerim", price: "60₺" },
-      { name: "Gözleme", price: "40₺" },
-      { name: "Bazlama", price: "15₺" },
-      { name: "Aşure", price: "50₺" },
-      { name: "Dondurma (kg)", price: "250₺" },
-      { name: "Dondurma (top)", price: "15₺" }
-    ]
-  },
-  {
     category: "DÖNER ÜRÜNLERİ",
     items: [
-      { name: "Et Döner Ekmek Arası", price: "150₺" },
-      { name: "Et Döner Lavaş Dürüm", price: "150₺" },
+      { name: "Et Döner Ekmek Arası", price: "140₺" },
+      { name: "Et Döner Lavaş Dürüm", price: "140₺" },
       { name: "Et Döner Servis", price: "170₺" },
-      { name: "Tavuk Döner Ekmek Arası", price: "120₺" },
-      { name: "Tavuk Döner Lavaş Dürüm", price: "120₺" },
-      { name: "Tavuk Döner Servis", price: "140₺" },
+      { name: "Tavuk Döner Ekmek Arası", price: "110₺" },
+      { name: "Tavuk Döner Lavaş Dürüm", price: "110₺" },
+      { name: "Tavuk Döner Servis", price: "130₺" },
       { name: "Hatay Usulü Tavuk Dürüm", price: "140₺" },
       { name: "Et İskender", price: "200₺" },
-      { name: "Tavuk İskender", price: "170₺" },
+      { name: "Tavuk İskender", price: "150₺" },
       { name: "Et Döner (kg)", price: "1500₺" },
       { name: "Tavuk Döner (kg)", price: "900₺" }
     ]
-  },
+  },  
   {
     category: "PİDE VE IZGARA ÇEŞİTLERİ",
     items: [
       { name: "Lahmacun", price: "75₺" },
       { name: "Kıymalı Pide", price: "130₺" },
       { name: "Kapalı Et Dönerli Pide", price: "200₺" },
-      { name: "Karışık-Kuşbaşılı Pide", price: "180₺" },
-      { name: "Orta Boy Pizza", price: "130₺" },
       { name: "Köfte (Ekmek Arası)", price: "130₺" },
-      { name: "Köfte Servis", price: "150₺" },
-      { name: "Adana Dürüm", price: "175₺" },
-      { name: "Adana Servis", price: "200₺" },
-      { name: "Pirzola", price: "200₺" }
+      { name: "Köfte Servis", price: "140₺" },
+      { name: "Adana Dürüm", price: "170₺" },
+      { name: "Adana Servis", price: "170₺" },
+      { name: "Pirzola", price: "200₺" },
+      { name: "Pizza", price: "130₺"}
+    ]
+  },
+  {
+    category: "ÖZEL LEZZETLER",
+    items: [
+      { name: "Ankara Tava", price: "200₺" },
+      { name: "Çiğ Köfte (kg)", price: "200₺" },
+      { name: "Çiğ Köfte (Porsiyon)", price: "50₺" },
+      { name: "Çiğ Köfte (Dürüm)", price: "40₺" },
+      { name: "Mantı (kg)", price: "??₺" },
+      { name: "Mantı (Porsiyon)", price: "??₺" },
+      { name: "İçli Köfte (adet)", price: "??₺" },
+      { name: "Yaprak Sarma(kg)", price: "??₺" },
+      { name: "Yaprak Sarma (Porsiyon)", price: "??₺" },
+      { name: "Baklava (kg)", price: "??₺" },
+      { name: "Baklava (Porsiyon)", price: "??₺" },
+      { name: "Waffle", price: "??₺" },
+      { name: "Höşmerim", price: "??₺" },
+      { name: "Gözleme", price: "??₺" },
+      { name: "Bazlama", price: "??₺" },
+      { name: "Aşure", price: "??₺" },
+      { name: "Dondurma (kg)", price: "??₺" },
+      { name: "Dondurma (top)", price: "??₺" }
     ]
   },
   {
     category: "ÇORBALAR",
     items: [
-      { name: "Gerdan Çorbası", price: "75₺" }
+      { name: "Gerdan Çorbası", price: "80₺" },
+      { name: "Mercimek Çorbası", price: "70₺"}
     ]
   },
   {
@@ -67,11 +67,11 @@ const menuData = [
       { name: "Su", price: "5₺" },
       { name: "Sade Soda", price: "15₺" },
       { name: "Kapalı Ayran", price: "10₺" },
-      { name: "Açık Ayran", price: "20₺" },
-      { name: "Niğde Gazozu", price: "25₺" },
-      { name: "Şalgam", price: "25₺" },
-      { name: "Milkshake", price: "80₺" },
-      { name: "Termos Çay", price: "70₺" }
+      { name: "Yayık Ayran", price: "20₺" },
+      { name: "Gazoz", price: "20₺" },
+      { name: "Kızılcık Şerbeti", price: "20₺" },
+      { name: "Limonata", price: "20₺" },
+      { name: "Çay", price: "5₺" }
     ]
   }
 ];
