@@ -52,9 +52,7 @@ const menuData = [
       { name: "Höşmerim", price: "60₺" },
       { name: "Gözleme", price: "40₺" },
       { name: "Bazlama", price: "15₺" },
-      { name: "Aşure", price: "50₺" },
-      { name: "Dondurma (kg)", price: "250₺" },
-      { name: "Dondurma (top)", price: "15₺" }
+      { name: "Aşure", price: "50₺" }
     ]
   },
   {
