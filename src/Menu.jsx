@@ -27,6 +27,9 @@ const menuData = [
       { name: "Köfte Servis", price: "140₺" },
       { name: "Adana Dürüm", price: "170₺" },
       { name: "Adana Servis", price: "170₺" },
+      { name: "Kanat", price: "120₺"},
+      { name: "Kuzu Şiş", price: "150₺"},
+      { name: "Kuzu Ciğer Şiş", price: "110₺"},
       { name: "Pirzola", price: "200₺" },
       { name: "Pizza", price: "130₺"}
     ]
