@@ -50,7 +50,7 @@ const menuData = [
       { name: "Baklava (Porsiyon)", price: "70₺" },
       { name: "Waffle", price: "70₺" },
       { name: "Höşmerim", price: "60₺" },
-      { name: "Gözleme", price: "40₺" },
+      { name: "Gözleme", price: "50₺" },
       { name: "Bazlama", price: "15₺" },
       { name: "Aşure", price: "50₺" }
     ]
